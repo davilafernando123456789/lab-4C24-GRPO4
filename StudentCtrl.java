@@ -8,7 +8,7 @@ public class Estudiante {
     // Constructor de la clase Estudiante
     public Estudiante(String nombre, String apellido, int edad, String carrera, double promedio) {
         this.nombre = nombre;
-        this.apellido = apellido;
+        this.apellidos = apellido;
         this.edad = edad;
         this.carrera = carrera;
         this.promedio = promedio;
@@ -23,12 +23,12 @@ public class Estudiante {
         this.nombre = nombre;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String getApellidos() {
+        return apellidos;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setApellidos(String apellido) {
+        this.apellidos = apellido;
     }
 
     public int getEdad() {
